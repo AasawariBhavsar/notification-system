@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Function", "NotificationSystem.Core\NotificationSystem.Function.csproj", "{64E845D2-2212-469E-9688-C601F1471C4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationSystem.Models", "NotificationSystem.Models\NotificationSystem.Models.csproj", "{D4E16BCA-668C-42F8-928F-02165749FDE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Models", "NotificationSystem.Models\NotificationSystem.Models.csproj", "{D4E16BCA-668C-42F8-928F-02165749FDE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationSystem.Interfaces", "NotificationSystem.Interfaces\NotificationSystem.Interfaces.csproj", "{EA4D01C8-C3F3-4ED4-A32E-3A64BF13D61C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Interfaces", "NotificationSystem.Interfaces\NotificationSystem.Interfaces.csproj", "{EA4D01C8-C3F3-4ED4-A32E-3A64BF13D61C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationSystem.Strategies", "NotificationSystem.Strategies\NotificationSystem.Strategies.csproj", "{2C501C8A-B66B-4060-9F9B-D3FC0529B90E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Strategies", "NotificationSystem.Strategies\NotificationSystem.Strategies.csproj", "{2C501C8A-B66B-4060-9F9B-D3FC0529B90E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationSystem.Services", "NotificationSystem.Services\NotificationSystem.Services.csproj", "{9B5362C2-CBBE-47B1-B50B-88F69E0B3DB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Services", "NotificationSystem.Services\NotificationSystem.Services.csproj", "{9B5362C2-CBBE-47B1-B50B-88F69E0B3DB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationSystem.Contexts", "NotificationSystem.Contexts\NotificationSystem.Contexts.csproj", "{EDF91B19-77B8-442F-AB9A-657B8CBA7291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Contexts", "NotificationSystem.Contexts\NotificationSystem.Contexts.csproj", "{EDF91B19-77B8-442F-AB9A-657B8CBA7291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationSystem.Builders", "NotificationSystem.Builders\NotificationSystem.Builders.csproj", "{0DEA9BC7-953D-4664-913A-339220520DBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Builders", "NotificationSystem.Builders\NotificationSystem.Builders.csproj", "{0DEA9BC7-953D-4664-913A-339220520DBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Function", "NotificationSystem.Function\NotificationSystem.Function.csproj", "{BCCD1BFF-12D6-47A4-A0A6-24394E55815D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{64E845D2-2212-469E-9688-C601F1471C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64E845D2-2212-469E-9688-C601F1471C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64E845D2-2212-469E-9688-C601F1471C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64E845D2-2212-469E-9688-C601F1471C4F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D4E16BCA-668C-42F8-928F-02165749FDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D4E16BCA-668C-42F8-928F-02165749FDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4E16BCA-668C-42F8-928F-02165749FDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +47,10 @@ Global
 		{0DEA9BC7-953D-4664-913A-339220520DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DEA9BC7-953D-4664-913A-339220520DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DEA9BC7-953D-4664-913A-339220520DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCCD1BFF-12D6-47A4-A0A6-24394E55815D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCD1BFF-12D6-47A4-A0A6-24394E55815D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCD1BFF-12D6-47A4-A0A6-24394E55815D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCD1BFF-12D6-47A4-A0A6-24394E55815D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
